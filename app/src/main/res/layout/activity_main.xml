@@ -8,17 +8,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="40sp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:text="From, Chuck"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:textColor="#fefefe"
         android:text="Happy Birthday Me!!"/>
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/androidparty"/>
+        android:background="@drawable/androidparty"
 
 
 </RelativeLayout>
